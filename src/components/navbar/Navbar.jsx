@@ -1,7 +1,17 @@
+import Link from "next/link"
+import styles from "./navbar.module.css"
+import LinksComponent from "@/components/Navbar/links/Links"
 
-const navbar = () => {
+
+const navbar =  () => {
   return (
-    <div>Navbar</div>
+    <div className={styles.container}>
+      <div className={styles.logoContainer}>
+        <Link className={styles.Logo} href="/">TravelMania.</Link>
+      </div>
+      <LinksComponent/>
+      
+    </div>
   )
 }
 

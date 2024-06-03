@@ -1,8 +1,124 @@
-.main {
+.container {
+  display: flex;
+  gap: 100px;
+ height:100%;
+  width: 100%;
+}
+
+.wrapper{
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.textContainer {
+  flex: 1;
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: flex-start;
+gap:30px
+
+}
+
+.title{
+  font-size: 56px;
+  width: 80%;
+  padding-left: 10px;
+}
+
+.subTitle{
+  font-size: 32px;
+  width: 80%;
+  padding-left: 10px;
+}
+
+.desc{
+  font-size: 30px;
+  width: 80%;
+  padding-left: 10px;
+}
+
+
+.buttons{
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  height: fit-content;
+  justify-content: center;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
+  height: 40px;
+  padding: 20px;
+  min-width: 120px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #246E79;
+  color: var(--white);
+
+}
+
+
+
+.activityContainer{
+    width: 100%;
+    height: 300px;
+
+}
+
+.imgContainer {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.waterImg{
+  height: 300px;
+  width: 300px;
+}
+
+@media (max-width: 1024px) {
+  .textContainer {
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+
+  .imgContainer{
+    display: none;
+  }
+  
+  .container {
+    flex-direction: column;
+  }
+  
+
+  .title{
+    font-size: 36px;
+  }
+  
+  .subTitle{
+    font-size: 26px;
+  }
+  
+  .desc{
+    font-size: 20px;
+  }
+
 }

@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+        flex:4;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;;
+    margin: 0;
+margin-right: 20px;
+
+
+}
+
+.link{
+    margin-left: 10px;
+}
+
+
+
+.link.active{
+
+    background-color: var(--blue);
+    color: var(--blue2);
+    transform: scale(1.5);
+  }

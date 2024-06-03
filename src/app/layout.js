@@ -1,9 +1,12 @@
-import Navbar from "@/components/navbar/navbar"
-import Footer from "@/components/footer/footer"
-import { Inter } from "next/font/google";
+import Navbar from "@/components/navbar/Navbar"
+import Footer from "@/components/footer/Footer"
+import { Inter, Nunito } from "next/font/google";
 import "./globals.css";
+import { unstable_noStore as noStore } from "next/cache";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const nunito = Nunito({ subsets: ["latin"] })
 
 export const metadata = {
   title: "Create Next App",
@@ -11,12 +14,19 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+
+  noStore()
+
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Navbar />
-        {children}
-        <Footer />
+      <body className={nunito.className}>
+        <main>
+          <Navbar />
+          <article>
+          {children}
+          </article>
+          <Footer />
+        </main>
       </body>
     </html>
   );
