@@ -84,8 +84,9 @@ gap:30px
 
 
 .waterImg{
-  height: 300px;
-  width: 300px;
+  /* position:fixed */
+  width: 465;
+  height: 628;
 }
 
 @media (max-width: 1024px) {

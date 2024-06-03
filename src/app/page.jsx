@@ -26,7 +26,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.imgContainer}>
-          <Image src="/water.png" alt="" className={styles.waterImg} width={500} height={500} />
+          <Image src="/water.png" alt="" className={styles.waterImg} fill />
         </div>
       </div>
     </div>

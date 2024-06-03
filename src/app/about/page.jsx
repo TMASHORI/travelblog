@@ -35,7 +35,7 @@ const AboutPage = () => {
       </div>
       <div className={styles.imgContainer}>
         <Image
-          src="/about.png"
+          src="https://images.pexels.com/photos/1365425/pexels-photo-1365425.jpeg?auto=compress&cs=tinysrgb&w=600"
           alt="About Image"
           fill
           className={styles.img}
