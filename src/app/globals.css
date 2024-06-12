@@ -18,7 +18,7 @@
 body {
   background-color: var(--blue1);
   color: var(--text);
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -30,7 +30,9 @@ body {
 main{
   display: flex;
   flex-direction: column;
-  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
   width: 90%;
   background: url("/background.png");
   background-repeat: none;
@@ -39,7 +41,7 @@ main{
 }
 
 article{
-  height: 100%;
+  height:fit-content;
   width: 100%;
   
 }

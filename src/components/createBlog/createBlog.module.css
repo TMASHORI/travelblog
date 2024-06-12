@@ -1,16 +1,18 @@
 .container {
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: fit-content;
     width: 80%;
     gap: 20px;
     align-items: flex-start;
     justify-content: center;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.1);
-    -webkit-backdrop-filter: blur(50px);
-    backdrop-filter: blur(100%);
-margin: 30px;
+    background-color: rgba(0, 0, 0, 0.15);
+    -webkit-backdrop-filter: blur(90%);
+    backdrop-filter: blur(90%);
+    padding: 10px;
+    margin: 20px;
+
 }
 
 .h1 {
@@ -44,7 +46,7 @@ margin: 30px;
     height: 80px;
     border-radius: 100%;
     margin-left: 10px;
-    border: 5px solid var(--caramel);
+    border: 3px solid var(--caramel);
 
 }
 

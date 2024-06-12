@@ -20,7 +20,7 @@ margin-right: 20px;
 
 .link.active{
 
-    background-color: var(--blue);
-    color: var(--blue2);
+    /* background-color: var(--blue); */
+    color: var(--btn);
     transform: scale(1.5);
   }
