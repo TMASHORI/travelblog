@@ -6,11 +6,11 @@ import { usePathname } from 'next/navigation'
 
 const links = [
     {
-        name: "About Us",
+        name: "About",
         path: "/about"
     },
     {
-        name: "Contact Us",
+        name: "Contact",
         path: "/contact"
     },
     {

@@ -2,7 +2,6 @@ import Navbar from "@/components/navbar/Navbar"
 import Footer from "@/components/footer/Footer"
 import { Inter, Nunito } from "next/font/google";
 import "./globals.css";
-import { unstable_noStore as noStore } from "next/cache";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,8 +13,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-
-  noStore()
+"use client"
 
   return (
     <html lang="en">

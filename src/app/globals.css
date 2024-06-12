@@ -18,7 +18,7 @@
 body {
   background-color: var(--blue1);
   color: var(--text);
-  min-height:100vh;
+  height: 100vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -28,7 +28,8 @@ body {
   
 }
 main{
-  overflow: none;
+  display: flex;
+  flex-direction: column;
   height: 100%;
   width: 90%;
   background: url("/background.png");
@@ -38,8 +39,9 @@ main{
 }
 
 article{
-  height: 100vh;
+  height: 100%;
   width: 100%;
+  
 }
 
 a {
