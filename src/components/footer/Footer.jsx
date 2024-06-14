@@ -1,11 +1,14 @@
-import styles from "./footer.module.css"
+import styles from "./footer.module.css";
 
-const footer = () => {
+const Footer = () => {
     return (
         <div className={styles.container}>
-            Footer
+            <div className={styles.logo}>TravelMania.</div>
+            <div className={styles.text}>
+                Travel agency © All rights reserved.
+            </div>
         </div>
-    )
-}
+    );
+};
 
-export default footer
+export default Footer;

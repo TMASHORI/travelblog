@@ -14,12 +14,12 @@ const links = [
         path: "/contact"
     },
     {
-        name: "Blog",
+        name: "Blogs",
         path: "/blog"
     },
     {
-        name: "admin",
-        path: "/Admin"
+        name: "Admin",
+        path: "/admin"
     },
     {
         name: "Login",

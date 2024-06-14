@@ -1,8 +1,9 @@
 :root {
   --caramel: #D9ED82;
-  --blue1:#246E79;
-  --blue2:#3D8E95;
-  --white:#EEF4F7;
+  --blue: #214856;
+  --blue2: #3D8E95;
+  --green: rgb(6, 70, 13);
+  --white: #EEF4F7;
   --bgSoft: #bfd3f5;
   --text: black;
   --textSoft: #e5e5e5;
@@ -16,7 +17,7 @@
 }
 
 body {
-  background-color: var(--blue1);
+  background-color: var(--blue);
   color: var(--text);
   min-height: 100vh;
   width: 100%;
@@ -24,10 +25,11 @@ body {
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  background: var(--bgSoft);
-  
+
+
 }
-main{
+
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -40,10 +42,10 @@ main{
   background-size: cover;
 }
 
-article{
-  height:fit-content;
+article {
+  height: fit-content;
   width: 100%;
-  
+
 }
 
 a {
@@ -99,6 +101,7 @@ a {
     width: 475px;
   }
 }
+
 @media (max-width: 475px) {
   .container {
     width: 380px;
