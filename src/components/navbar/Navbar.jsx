@@ -10,7 +10,6 @@ const navbar =  () => {
         <Link className={styles.Logo} href="/">TravelMania.</Link>
       </div>
       <LinksComponent/>
-      
     </div>
   )
 }

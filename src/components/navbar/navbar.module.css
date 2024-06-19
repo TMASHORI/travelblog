@@ -1,7 +1,10 @@
 .container{
     display: flex;
     height: 100px;
-    width: 100%;
+    width: 90%;
+    position: fixed;
+    background: white;
+    z-index: 1;
 
 }
 .logoContainer{
