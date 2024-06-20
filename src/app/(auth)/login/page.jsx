@@ -3,6 +3,8 @@ import styles from "./login.module.css"
 import LoginForm from "@/components/loginForm/loginForm"
 
 const page = () => {
+
+
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>

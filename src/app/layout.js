@@ -1,3 +1,5 @@
+
+
 import Navbar from "@/components/navbar/Navbar"
 import Footer from "@/components/footer/Footer"
 import { Inter, Nunito } from "next/font/google";
@@ -13,7 +15,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-"use client"
+
 
   return (
     <html lang="en">
@@ -21,7 +23,7 @@ export default function RootLayout({ children }) {
         <main>
           <Navbar />
           <article>
-          {children}
+          {children }
           </article>
           <Footer />
         </main>

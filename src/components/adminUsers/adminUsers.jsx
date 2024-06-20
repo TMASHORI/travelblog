@@ -19,7 +19,18 @@ const data = [{
   password: "Dummypassword",
   img: "/noavatar.png"
 },
-
+{
+  username: "Joel Mashori",
+  email: "Thatomashori@gmail.com",
+  password: "Dummypassword",
+  img: "/noavatar.png"
+},
+{
+  username: "Nandi Mashori",
+  email: "Thatomashori@gmail.com",
+  password: "Dummypassword",
+  img: "/noavatar.png"
+},
 ]
 
 

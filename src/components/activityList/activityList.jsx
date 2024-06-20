@@ -22,6 +22,9 @@ const boxes = [{
 ]
 
 const ActivityList = () => {
+
+  "use client "
+  
   return (
     <div className={styles.container}>
       {boxes.map((box, i) => {

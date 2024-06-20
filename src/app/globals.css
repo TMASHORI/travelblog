@@ -2,7 +2,7 @@
   --caramel: #D9ED82;
   --blue: #214856;
   --blue2: #3D8E95;
-  --green: rgb(6, 70, 13);
+  --green: rgb(12, 140, 27);
   --white: #EEF4F7;
   --bgSoft: #bfd3f5;
   --text: black;
@@ -42,12 +42,14 @@ main {
 }
 
 article {
-  margin-top: 100px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  margin: 50px;
+  padding: 100px;
   /* background: orange; */
   height: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 a {

@@ -1,20 +1,37 @@
-.container{
+.container {
+
     display: flex;
     height: 100px;
     width: 90%;
     position: fixed;
     background: white;
     z-index: 1;
+}
+
+.img {
+    display: none;
+}
+
+.linksContainer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    /* background: red; */
+    position: relative;
 
 }
-.logoContainer{
-    flex:1;
+
+
+.logoContainer {
+    flex: 1;
     display: flex;
     align-items: center;
     justify-content: flex-start;
 }
 
-.Logo{
+
+.Logo {
     font-weight: bolder;
     font-size: 35px;
     cursor: pointer;
@@ -22,8 +39,42 @@
 }
 
 
-@media (max-width: 1024px) {
-.Logo{
-    font-size: 25px;
-}
+@media (max-width: 1280px) {
+
+    .container {
+
+
+        height: fit-content;
+        position: fixed;
+        display: flex;
+        align-items: flex-start;
+        padding: 30px;
+    }
+
+    .linksContainer {
+        height: 100vh;
+        display:none ;
+    }
+
+    .linksContainer.active{
+        display: block;
+    }
+
+    .img {
+        display: block;
+        position: fixed;
+        top: 30px;
+        right: 100px;
+        cursor: pointer;
+        filter: grayscale(10);
+    }
+
+    .container.active {
+        display: none;
+
+    }
+
+    .Logo {
+        font-size: 25px;
+    }
 }

@@ -1,14 +1,19 @@
 .container {
+  height: fit-content;
+  width: 100%;
   display: flex;
   gap: 100px;
-  height: 100%;
-  width: 100%;
+  align-items: space-between;
+  justify-content: space-between;
+  ;
 }
 
 .wrapper {
+  /* background: yellow; */
   display: flex;
   height: 100%;
   width: 100%;
+  /* padding: 30px; */
 }
 
 .textContainer {
@@ -60,7 +65,7 @@
   cursor: pointer;
   border: none;
   border-radius: 5px;
-  background-color:var(--blue);
+  background-color: var(--blue);
   color: var(--white);
 
 }
@@ -69,13 +74,12 @@
 
 .activityContainer {
   width: 100%;
-  height: 400px;
-  background: white;
+  height: fit-content;
   display: flex;
-  align-items: center;
-flex-direction: column;
-  justify-content: center;
-  gap: 20px;
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* background: red; */
 
 }
 
@@ -108,7 +112,7 @@ flex-direction: column;
   left: 0;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1280px) {
   .textContainer {
     flex: 1;
     height: 100%;
@@ -124,21 +128,16 @@ flex-direction: column;
     display: none;
   }
 
+
+  .activityContainer {
+    /* display: none; */
+    
+  }
+
   .container {
     flex-direction: column;
   }
 
 
-  .title {
-    font-size: 36px;
-  }
-
-  .subTitle {
-    font-size: 26px;
-  }
-
-  .desc {
-    font-size: 20px;
-  }
 
 }
