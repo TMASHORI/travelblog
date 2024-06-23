@@ -54,6 +54,7 @@
     .linksContainer {
         height: 100vh;
         display:none ;
+        transition: ease 3s  ;
     }
 
     .linksContainer.active{

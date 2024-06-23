@@ -7,6 +7,23 @@
 
 }
 
+.explore{
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    background: var(--green);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+            
+}
+
+.explore:active{
+    background: white;
+        /* border: 1px solid black; */
+        color: var(--green);
+        
+    }
 
 
 .logOut {
@@ -25,19 +42,31 @@
     height: fit-content;
     width: fit-content;
     padding: 10px;
-    background: var(--green);
+    background: var(--blue);
     border-radius: 5px;
     color: white;
     font-size: 20px;
 }
 
+.logIn:active{
+    background: white;
+        /* border: 1px solid black; */
+        color: var(--blue);
+    }
+
+
+.logOut:active{
+        background: white;
+            /* border: 1px solid black; */
+            color: var(--blue);
+        }
+
 .link.active {
 
     /* background-color: var(--blue); */
-    color: var(--btn);
+    color: var(--blue);
     transform: scale(1.5);
 }
-
 
 
 @media screen and (max-width: 1280px) {

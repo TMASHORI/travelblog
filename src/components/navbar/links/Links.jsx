@@ -20,7 +20,7 @@ const links = [
   },
 ];
 
-const LinksComponent = ({ open ,setOpen}) => {
+const LinksComponent = ({ open, setOpen }) => {
   const [session, setSession] = useState(false);
   const pathname = usePathname();
 
@@ -29,6 +29,15 @@ const LinksComponent = ({ open ,setOpen}) => {
 
   return (
     <div className={styles.container}>
+      <Link
+        href="/explore"
+        className={`${styles.explore} ${pathname === "/explore" && styles.active}`}
+        onClick={() => {
+          setOpen(!open);
+        }}
+      >
+        Explore Places
+      </Link>
       {links.map((link) => {
         return (
           <Link
