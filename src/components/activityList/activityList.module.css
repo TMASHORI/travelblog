@@ -57,7 +57,21 @@
 
 @media (max-width: 1280px) {
     .container {
-      /* display: none; */
+        /* display: none; */
+        height: 800px;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+
+    .singleBox {
+        width: 390px;
+        /* height: 390px; */
+        align-self: center;
+        justify-self: center;
+        margin-bottom:20px;
+
     }
 
 }

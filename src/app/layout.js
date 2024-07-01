@@ -20,13 +20,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={nunito.className}>
+        <Navbar />
         <main>
-          <Navbar />
-          <article>
-          {children }
-          </article>
-          <Footer />
+          {children}
         </main>
+        <Footer />
       </body>
     </html>
   );

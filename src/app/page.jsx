@@ -21,7 +21,7 @@ export default function Home() {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <div className={styles.textContainer}>
-          <h2 className={styles.subTitle}>Mountain|Plains|Beaches</h2>
+          <h2 className={styles.subTitle}>Mountain | Plains | Beaches</h2>
           <h1 className={`${styles.title} ${playFair.className}`} >Spend your vacations with our activities & places.</h1>
           <p className={styles.desc}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt iure inventore doloribus perferendis totam. Nemo odit quasi hic porro laudantium pariatur veritatis molestias earum consequuntur sit, ullam ducimus, harum, aspernatur ut perspiciatis natus repellendus odio placeat ipsum. Tenetur, earum? Omnis!</p>
           <div className={styles.buttons}>

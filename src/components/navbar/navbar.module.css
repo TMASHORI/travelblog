@@ -2,14 +2,21 @@
 
     display: flex;
     height: 100px;
-    width: 90%;
-    position: fixed;
-    background: white;
+    width:100% ;
+    align-self: center;
+    justify-self: center;
+    /* justify-content: space-between; */
     z-index: 1;
+    margin: 0px;
+    background: white;
+    /* box-shadow: 0px 0px 5px 5px #fff ; */
+    position: fixed;
+
 }
 
 .img {
     display: none;
+
 }
 
 .linksContainer {
@@ -45,10 +52,9 @@
 
 
         height: fit-content;
-        position: fixed;
         display: flex;
         align-items: flex-start;
-        padding: 30px;
+        padding: 20px;
     }
 
     .linksContainer {
@@ -63,11 +69,12 @@
 
     .img {
         display: block;
-        position: fixed;
-        top: 30px;
-        right: 100px;
+        /* position: fixed; */
+        /* top: 30px; */
+        /* right: 20px; */
         cursor: pointer;
-        filter: grayscale(10);
+        /* padding-right: 10px; */
+        /* filter: grayscale(10); */
     }
 
     .container.active {

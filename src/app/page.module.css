@@ -113,6 +113,9 @@
 }
 
 @media (max-width: 1280px) {
+  .container {
+    flex-direction: column;
+  }
   .textContainer {
     flex: 1;
     height: 100%;
@@ -127,17 +130,47 @@
   .imgContainer {
     display: none;
   }
+  
+.subTitle{
+  font-size: 24px;
+  width: 95vw;
+  margin-top: 20px;
+}
+.title{
+  font-size: 38px;
+  width:90vw;
+}
 
+.desc{
+  font-size: 28px;
+  width: 90vw;
+}
+}
 
-  .activityContainer {
-    /* display: none; */
-    
-  }
+@media (max-width: 768px) {
 
-  .container {
-    flex-direction: column;
-  }
+  
+.subTitle{
+  font-size: 22px;
+  width: 95vw;
+  margin-top: 20px;
+}
+.title{
+  font-size: 30px
+  
+}
 
+.desc{
+  font-size: 22px;
+  width: 90vw;
+}
 
+}
 
+@media (max-width: 640px) {
+  
+}
+
+@media (max-width: 475px) {
+  
 }

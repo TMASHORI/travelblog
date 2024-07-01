@@ -7,6 +7,7 @@
     color: gray;
     background: rgba(217, 237, 130, 0.8);
     padding: 10px;
+    position: absolute;
 }
 
 .logo {
@@ -22,6 +23,6 @@
     .container {
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 }

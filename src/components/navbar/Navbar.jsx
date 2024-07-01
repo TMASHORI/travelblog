@@ -11,14 +11,30 @@ const navbar = () => {
   return (
     <div className={styles.container}>
       <div className={styles.logoContainer}>
-        <Link className={styles.Logo} href="/" onClick={()=>{setOpen(false)}}>
+        <Link
+          className={styles.Logo}
+          href="/"
+          onClick={() => {
+            setOpen(false);
+          }}
+        >
           TravelMania.
         </Link>
       </div>
-      <div className={`${styles.linksContainer} ${open && styles.active}`} >
+      <div className={`${styles.linksContainer} ${open && styles.active}`}>
         <LinksComponent open={open} setOpen={setOpen} />
       </div>
-        <Image src={`${open?'/close.png':'/menu.png' }`} alt="" width={30} height={30} className={styles.img} onClick={()=>{setOpen(!open)}} unoptimized/>
+      <Image
+        src={`${open ? "/close.png" : "/menu.png"}`}
+        alt=""
+        width={30}
+        height={30}
+        className={styles.img}
+        onClick={() => {
+          setOpen(!open);
+        }}
+        unoptimized
+      />
     </div>
   );
 };

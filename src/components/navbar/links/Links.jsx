@@ -7,16 +7,16 @@ import { useState } from "react";
 
 const links = [
   {
-    name: "About",
+    name: "Blogs",
+    path: "/blog",
+  },
+  {
+    name: "About us",
     path: "/about",
   },
   {
-    name: "Contact",
+    name: "Contact us",
     path: "/contact",
-  },
-  {
-    name: "Blogs",
-    path: "/blog",
   },
 ];
 
@@ -25,8 +25,6 @@ const LinksComponent = ({ open, setOpen }) => {
   const pathname = usePathname();
 
   const isAdmin = true;
-  // const session = true;
-
   return (
     <div className={styles.container}>
       <Link
@@ -54,7 +52,7 @@ const LinksComponent = ({ open, setOpen }) => {
           </Link>
         );
       })}
-      {session && isAdmin && (
+      {isAdmin && (
         <Link
           href="/admin"
           className={styles.link}

@@ -1,10 +1,10 @@
-import AdminUsers from "@/components/adminUsers/adminUsers"
+import AdminUsers from "@/components/(admin)/adminUsers/adminUsers"
 import styles from "./admin.module.css"
-import AdminPosts from "@/components/adminPosts/adminPosts"
-import AdminPlaces from "@/components/adminPlaces/adminPlaces"
-import AdminUserForm from "@/components/adminUserForm/adminUserForm"
-import AdminPostForm from "@/components/adminPostForm/adminPostForm"
-import AdminPlacesForm from "@/components/adminPlacesForm/adminPlacesForm"
+import AdminPosts from "@/components/(admin)/adminPosts/adminPosts"
+import AdminPlaces from "@/components/(admin)/adminPlaces/adminPlaces"
+import AdminUserForm from "@/components/(admin)/adminUserForm/adminUserForm"
+import AdminPostForm from "@/components/(admin)/adminPostForm/adminPostForm"
+import AdminPlacesForm from "@/components/(admin)/adminPlacesForm/adminPlacesForm"
 
 const page = () => {
 
