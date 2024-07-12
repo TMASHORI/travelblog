@@ -1,19 +1,17 @@
 
 import Image from "next/image";
 import styles from "./createBlog.module.css";
+import { addPost } from "@/lib/action";
 
 const CreateBlog = () => {
-  const addPost = async (FormData) => {
-const {title} =Object.fromEntries(FormData)
 
-    console.log(title)
-  };
+
 
   return (
     <div className={styles.container}>
       <h1 className={styles.h1}>Post a Blog</h1>{" "}
       <p className={styles.p}>Share you're expirences with other travelers. </p>
-      <form action={addPost()} className={styles.form}>
+      <form action={addPost} className={styles.form}>
         <Image
           src="/noavatar.png"
           className={styles.avatar}
@@ -24,24 +22,28 @@ const {title} =Object.fromEntries(FormData)
         <input type="text"
           placeholder="Title of blog. "
           name="title"
-          className={styles.input} />
-        {/* <textarea
+          className={styles.input} 
+          required
+          />
+        <textarea
           type="text"
           placeholder="Tell us all about it. "
-          name="desc"
+          name="bio"
           className={styles.textarea}
+          required
         ></textarea>
         <label for="file-upload" className={styles.customfileupload}>
           Upload Images
-        </label> */}
-        {/* <input
+        </label>
+        <input
           id="file-upload"
           type="file"
           accept="image"
           name="image"
           className={styles.fileInput}
-        /> */}
-        <button className={styles.button}>Send</button>
+          required
+        />
+        <button className={styles.button} >Send</button>
       </form>
     </div>
   );

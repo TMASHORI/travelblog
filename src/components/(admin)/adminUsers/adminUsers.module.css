@@ -4,7 +4,7 @@
     align-items: center;
     flex-direction: column;
     height: 100%;
-    width: 500px;
+    width: 600px;
     /* background: red; */
     padding: 10px;
     gap: 10px;
@@ -12,52 +12,3 @@
 
 }
 
-.wrapper {
-    display: flex;
-    justify-content: space-between;
-    height: fit-content;
-    width: 100%;
-    gap: 10px;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.3);
-}
-
-.avatar {
-    width: 20%;
-
-}
-
-.avatarImg {
-    border-radius: 100%;
-}
-
-.username {
-    width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.editButton {
-    width: 120px;
-    height: 40px;
-    align-self: center;
-    justify-self: center;
-    background: var(--bgSoft);
-    border: none;
-    /* font-weight: bolder; */
-    font-size: 20px;
-}
-
-.deleteButton {
-
-    width: 120px;
-    height: 40px;
-    align-self: center;
-    justify-self: center;
-    background: red;
-    border: none;
-    font-size: 20px;
-    /* font-weight: bolder; */
-    color: white;
-}

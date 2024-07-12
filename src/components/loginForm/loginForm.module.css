@@ -3,6 +3,7 @@
     flex-direction: column;
     text-align: center;
     gap: 30px;
+    position: static;
 }
 
 .form input {
@@ -27,3 +28,12 @@
     
     font-size: 20px;
 }
+
+.avatar{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top:-52px;
+    left:370px;
+    margin: -25px;;
+  }

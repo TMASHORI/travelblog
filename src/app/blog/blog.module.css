@@ -45,11 +45,15 @@
     }
     
     .post {
-        width: 45%;
+        width: 35%;
     }
-
+    
     .box1{
         justify-content: center;
+        flex-wrap: wrap;
+        /* background: green; */
+        width: 95vw;
+        
     }
 }
 

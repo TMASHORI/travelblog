@@ -1,3 +1,5 @@
+"use client"
+
 import AdminUsers from "@/components/(admin)/adminUsers/adminUsers"
 import styles from "./admin.module.css"
 import AdminPosts from "@/components/(admin)/adminPosts/adminPosts"
@@ -5,12 +7,19 @@ import AdminPlaces from "@/components/(admin)/adminPlaces/adminPlaces"
 import AdminUserForm from "@/components/(admin)/adminUserForm/adminUserForm"
 import AdminPostForm from "@/components/(admin)/adminPostForm/adminPostForm"
 import AdminPlacesForm from "@/components/(admin)/adminPlacesForm/adminPlacesForm"
+import AdminMessages from "@/components/(admin)/adminMessages/adminMessages"
+
 
 const page = () => {
 
-    "use client"
     return (
         <div className={styles.container}>
+            <div className={styles.wrapper}>
+                <h1 className={styles.heading}>Messages from Users </h1>
+                <div className={styles.Users}>
+                    <AdminMessages/>
+                </div>
+            </div>
             <div className={styles.wrapper}>
                 <h1 className={styles.heading}>Users</h1>
                 <div className={styles.Users}>

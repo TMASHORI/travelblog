@@ -1,0 +1,85 @@
+
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10x;
+    width: 600px;
+    background: rgba(0, 0, 0, 0.3);
+
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    width: 100%;
+    gap: 10px;
+    padding: 10px;
+}
+
+.bottom{
+height:fit-content;
+width: 100%;
+padding: 20px;
+
+}
+
+.details{
+min-height: 50px;
+margin: 10px;
+padding: 10px;
+width: 100%;
+background: white;
+display: flex;
+align-items: center;
+}
+
+.details{
+    font-size: 25px;
+}
+
+
+.avatar {
+    width: 20%;
+
+}
+
+.avatarImg {
+    border-radius: 100%;
+}
+
+.username {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.viewButton,.editButton ,.deleteButton{
+    min-width: 120px;
+    padding: 10px;
+    height: 40px;
+    align-self: center;
+    justify-self: center;
+    border: none;
+    /* font-weight: bolder; */
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.viewButton{
+    background: var(--green);
+    color: white;
+}
+.editButton{
+background: var(--bgSoft);
+
+}
+
+.deleteButton {
+
+    background: red;
+    /* font-weight: bolder; */
+    color: white;
+}
