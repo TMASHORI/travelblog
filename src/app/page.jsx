@@ -32,8 +32,14 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.imgContainer}>
-          <Image src="/water.png" alt="" className={styles.waterImg} fill />
-          <Image src="/Boat.png" alt="" className={styles.waterImg2} fill />
+          <Image src="/water.png" 
+          alt="" 
+          className={styles.waterImg} 
+          fill 
+          unoptimized
+          />
+          <Image src="/Boat.png" 
+          alt="" className={styles.waterImg2} fill unoptimized/>
         </div>
       </div>
     </div>

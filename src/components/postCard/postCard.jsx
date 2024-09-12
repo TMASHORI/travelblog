@@ -9,7 +9,7 @@ const PostCard = ({post}) => {
         <div className={styles.container}>
             <div className={styles.top}>
                 <div className={styles.imgContainer}>
-                    <Image src="/Boat.png" alt=""  className={styles.img} fill/>
+                    <Image src="/Boat.png" alt=""  className={styles.img} fill unoptimized/>
                 </div>
                 {/* <span className={styles.date}>{post.createdAt?.toString().slice(4, 16)}</span> */}
                 <span className={styles.date}>01.01.2010</span>

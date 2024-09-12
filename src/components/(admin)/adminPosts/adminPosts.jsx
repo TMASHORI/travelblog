@@ -36,7 +36,7 @@ const AdminPosts = () => {
         return (
           <div className={styles.wrapper} key={i}>
 
-            <Image src="/noavatar.png" width={200} height={200} />
+            <Image src="/noavatar.png" alt="" width={200} height={200} unoptimized/>
             <h1 className={styles.title}>Title</h1>
             <p className={styles.date}>01.01.2010</p>
             <p className={styles.desc}>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt ipsum fugiat nihil at, minus maxime ratione dolor velit animi molestias eum eius vero quibusdam, veniam laborum in sit, modi impedit.</p>

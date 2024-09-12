@@ -36,7 +36,7 @@ const data = [{
 {
   username: "Nandi Mashori",
   email: "Thatomashori@gmail.com",
-  password: "Dummypassword",
+  password: "Dummypasswsord",
   img: "/noavatar.png",admin:false
 },
 ]
@@ -49,7 +49,7 @@ const AdminUsers = () => {
     <div className={styles.container}>
       {data.map((user, i) => {
         return (
-          <SingleUser user={user} index={i}/>
+          <SingleUser user={user} index={i} key={i}/>
         )
       })}
 

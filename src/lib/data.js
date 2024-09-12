@@ -35,7 +35,7 @@ export const posts = [
 export const places = [
   {
     title: "White Houses",
-    img: "https://images.pexels.com/photos/4552408/pexels-photo-4552408.jpeg?auto=compress&cs=tinysrgb&w=400",
+    img: "/place1.jpeg",
     location: "Worsecter , Western Cape",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.consequuntur deserunt voluptatem magni non autem commodi accusantium voluptas officiis incidunt quibusdam.",
     price: "12 000",
@@ -43,7 +43,7 @@ export const places = [
   },
   {
     title: "Bike Hub",
-    img: "https://images.pexels.com/photos/20628275/pexels-photo-20628275/free-photo-of-city-road-people-street.jpeg?auto=compress&cs=tinysrgb&w=600",
+    img: "/place2.jpeg",
     location: "Cape Town , Western Cape",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.consequuntur deserunt voluptatem magni non autem commodi accusantium voluptas officiis incidunt quibusdam.",
     price: 1800,
@@ -51,7 +51,7 @@ export const places = [
   },
   {
     title: "Cliffs Park",
-    img: "https://images.pexels.com/photos/5501922/pexels-photo-5501922.jpeg?auto=compress&cs=tinysrgb&w=600",
+    img: "/place3.jpeg",
     location: "Enburg,Western Cape",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.consequuntur deserunt voluptatem magni non autem commodi accusantium voluptas officiis incidunt quibusdam.",
     price: 250,
@@ -59,7 +59,7 @@ export const places = [
   },
   {
     title: "Winyard Houses",
-    img: "/noavatar.png",
+    img: "/place1.jpeg",
     location: "Worsecter,Western Cape",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.consequuntur deserunt voluptatem magni non autem commodi accusantium voluptas officiis incidunt quibusdam.",
     price: 1200,
@@ -67,7 +67,7 @@ export const places = [
   },
   {
     title: "The Winyard",
-    img: "/noavatar.png",
+    img: "/place2.jpeg",
     location: "Worsecter,Western Cape",
     desc: "Lorem ipsum dolor sit, amet consectetur adipisicing elit.consequuntur deserunt voluptatem magni non autem commodi accusantium voluptas officiis incidunt quibusdam.",
     price: 1200,

@@ -6,7 +6,7 @@ import LinksComponent from "@/components/Navbar/links/Links";
 import Image from "next/image";
 import { useState } from "react";
 
-const navbar = () => {
+const Navbar = () => {
   const [open, setOpen] = useState(false);
   return (
     <div className={styles.container}>
@@ -39,4 +39,4 @@ const navbar = () => {
   );
 };
 
-export default navbar;
+export default Navbar;

@@ -10,7 +10,7 @@ const CreateBlog = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.h1}>Post a Blog</h1>{" "}
-      <p className={styles.p}>Share you're expirences with other travelers. </p>
+      <p className={styles.p}>Share youre expirences with other travelers. </p>
       <form action={addPost} className={styles.form}>
         <Image
           src="/noavatar.png"

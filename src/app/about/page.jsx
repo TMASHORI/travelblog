@@ -39,6 +39,7 @@ const AboutPage = () => {
           alt="About Image"
           fill
           className={styles.img}
+          unoptimized
         />
       </div>
     </div>

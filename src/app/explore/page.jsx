@@ -7,7 +7,7 @@ import PlacesList from "@/components/placesList/placesList";
 import { useState } from "react";
 import { places } from "@/lib/data";
 
-const page = () => {
+const Page = () => {
   const [query, setQuery] = useState("");
 
   const filteredData = places.filter(
@@ -31,4 +31,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

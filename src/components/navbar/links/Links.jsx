@@ -42,7 +42,7 @@ const LinksComponent = ({ open, setOpen }) => {
             key={link.name}
             href={link.path}
             className={`${styles.link} ${
-              pathname === link.path && styles.active
+              pathname === link.path && styles.focus
             }`}
             onClick={() => {
               setOpen(!open);
