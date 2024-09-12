@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import styles from "./navbar.module.css";
-import LinksComponent from "@/components/Navbar/links/Links";
 import Image from "next/image";
 import { useState } from "react";
+import Linkscomponent from "./links/Links";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
@@ -22,7 +22,7 @@ const Navbar = () => {
         </Link>
       </div>
       <div className={`${styles.linksContainer} ${open && styles.active}`}>
-        <LinksComponent open={open} setOpen={setOpen} />
+        <Linkscomponent open={open} setOpen={setOpen} />
       </div>
       <Image
         src={`${open ? "/close.png" : "/menu.png"}`}

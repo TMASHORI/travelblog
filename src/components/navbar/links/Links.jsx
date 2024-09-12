@@ -20,7 +20,7 @@ const links = [
   },
 ];
 
-const LinksComponent = ({ open, setOpen }) => {
+const Linkscomponent = ({ open, setOpen }) => {
   const [session, setSession] = useState(false);
   const pathname = usePathname();
 
@@ -89,4 +89,4 @@ const LinksComponent = ({ open, setOpen }) => {
   );
 };
 
-export default LinksComponent;
+export default Linkscomponent;
